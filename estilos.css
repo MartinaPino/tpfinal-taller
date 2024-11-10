@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #FFFFFF;
+}
+
+/*estilos inicio*/
+
+.inicio {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url('imagenes/fondo-inicio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 0 80px;
+}
+
+.title-inicio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title-inicio img {
+    width: 738px;
+    height: 69px;
+}
+
+.nucleo1-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.n1-img{
+    width: 487px;
+    height: 254px;
+    border-radius: 10px;
+}
+
+.n2-img{
+    width: 229px;
+    height: 247px;
+    border-radius: 10px;
+}
+
+.n3-img{
+    width: 317px;
+    height: 208px;
+    border-radius: 10px;
+}
+
+ .texto-hover-container {
+    width: 341px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.746);
+    border-radius: 35px;
+}
+
+.hover-container:hover .texto-hover-container {
+    display: none;
+} 
+
+.subtitle-inicio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.titulo-nucleo-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.subtitulo-container{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.subtitlo {
+    width: 300px;
+    height: 167px;
+    margin-left: -160px;
+}
+.animacion{
+    height: 400px;
+}
+
+.hover-container img{
+    margin-right: 35px;
+}
+
+.n4-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 46px;
+}
+
+.n5-img{
+    height: 306px;
+    border-radius: 10px;
+
+}
